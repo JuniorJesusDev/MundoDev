@@ -1,0 +1,398 @@
+.html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+body {
+  margin-top: 10px;
+  background-image: url(../img/bkpg1m2.jpg);
+  font-family: Verdana, arial, sans-serif;
+  font-size: 12px;
+  line-height: 1, 45px;
+  max-width: 900px;
+  margin: auto;
+}
+.flex {
+  max-width: 900px;
+  padding: 5px;
+  border: 2px solid rgb(123, 102, 218);
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-image: url(../img/menuroxo.jfif);
+  background-repeat: repeat;
+  background-size: 100%;
+  justify-content: center;
+}
+.item {
+  margin: 5px;
+}
+.item_2 {
+  margin: 5px;
+}
+.item_3 {
+  margin: 5px;
+}
+.item_4 {
+  margin: 5px;
+}
+.item_5 {
+  margin: 5px;
+}
+a {
+  text-decoration: dotted;
+  /*border: 2px solid rgb(248, 245, 245);*/
+  background-color: rgb(0, 26, 255);
+}
+.flex a {
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+  background-color: rgb(4, 3, 58);
+}
+.item:hover a span {
+  background-color: rgb(250, 1, 154);
+  color: #d4dded;
+}
+.item_2:hover a span {
+  background-color: rgb(197, 3, 3);
+  color: #d4dded;
+}
+.item_3:hover a span {
+  background-color: rgb(131, 0, 253);
+  color: #d4dded;
+}
+.item_4:hover a span {
+  background-color: rgb(55, 0, 207);
+  color: #d4dded;
+}
+.item_5:hover a span {
+  background-color: rgb(255, 0, 170);
+  color: #d4dded;
+}
+.menu {
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.item {
+  margin: 5px;
+}
+.item_2 {
+  margin: 5px;
+}
+.item_3 {
+  margin: 5px;
+}
+.flex-container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+.flex-item {
+  background: blue;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  color: whitesmoke;
+  text-align: center;
+  margin: 5px;
+}
+.row {
+  flex-direction: row;
+}
+.row-reverse li {
+  background-color: red;
+}
+.row-reverse {
+  flex-direction: row-reverse;
+}
+.column {
+  float: left;
+  flex-direction: column;
+}
+.column li {
+  background-color: orange;
+}
+.column-reverse {
+  float: right;
+  flex-direction: column-reverse;
+}
+.column-reverse li {
+  background: #16c79b;
+}
+.flex-container2 {
+  display: flex;
+  height: 150px;
+  border: 2px solid black;
+  max-width: 300px;
+}
+.item2 {
+  font-size: 24px;
+  height: 50%;
+  text-align: center;
+  width: 100px;
+  min-width: 100px;
+}
+.nowrap {
+  flex-wrap: nowrap;
+}
+.blue {
+  background-color: blue;
+}
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.wrap-revese {
+  flex-wrap: wrap-reverse;
+}
+.flex-container3 {
+  display: flex;
+  border: 1px solid blue;
+  max-width: 500px;
+}
+.default {
+  flex-flow: row nowrap;
+}
+.item3 {
+  background-color: blueviolet;
+  margin: 5px;
+  color: white;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+}
+.wrap2 {
+  flex-flow: row wrap;
+}
+.column2 {
+  flex-flow: column wrap;
+  max-height: 200px;
+  max-width: 300px;
+}
+.container {
+  max-width: 400px;
+  border: 1px solid black;
+  margin: 0;
+  display: flex;
+}
+.item4 {
+  background-color: cornflowerblue;
+  margin: 5px;
+  text-align: center;
+  color: aliceblue;
+}
+.h1flex-start {
+  margin-top: 300px;
+}
+.flex-start {
+  justify-content: flex-start;
+}
+.flex-end {
+  justify-content: flex-end;
+}
+.flex-center {
+  justify-content: center;
+}
+.space-between {
+  justify-content: space-between;
+}
+.space-around {
+  justify-content: space-around;
+}
+.column3 {
+  max-width: 900px;
+  border: 1px solid black;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+.container2 {
+  margin-top: 15px;
+  max-width: 350px;
+  border: 1px solid black;
+  display: flex;
+}
+.item5 {
+  background-color: rgb(49, 56, 56);
+  margin: 5px;
+  color: #d4dded;
+  text-align: center;
+  flex: 1;
+}
+.center {
+  align-items: center;
+}
+.stretch {
+  align-items: stretch;
+}
+.central {
+  height: 300px;
+  justify-content: center;
+}
+.central .item5 {
+  flex: 0;
+  padding: 20px;
+}
+.container3 {
+  height: 400px;
+  max-width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid black;
+}
+.item6 {
+  background-color: orange;
+  padding: 0 5px;
+  margin: 5px;
+  flex: 1;
+  text-align: center;
+  color: #d4dded;
+}
+.stretch2 {
+  align-content: stretch;
+}
+.center2 {
+  align-content: center;
+}
+.flex-container4 {
+  display: flex;
+  border: 2px solid black;
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+.flex-container5 {
+  display: flex;
+  border: 2px solid black;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+.item7 {
+  background-color: orangered;
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+.fg-0 {
+  flex-grow: 0;
+}
+.fg-1 {
+  flex-grow: 1;
+}
+.fg-2 {
+  flex-grow: 2;
+}
+.fg-3 {
+  flex-grow: 3;
+}
+.item8 {
+  background-color: coral;
+  color: wheat;
+  text-align: center;
+  margin: 5px;
+}
+.bauto {
+  flex-basis: auto;
+}
+.b0 {
+  flex-basis: 0;
+}
+.w100 {
+  flex-basis: 100px;
+}
+.flex-container6 {
+  display: flex;
+  border: 2px solid black;
+  max-width: 350px;
+}
+.item9 {
+  background-color: orange;
+  font-size: 24px;
+  text-align: center;
+  margin: 5px;
+}
+.fs-1 {
+  flex-shrink: 1;
+}
+.fs-2 {
+  flex-shrink: 2;
+}
+.flex-1 {
+  flex: 1;
+  /* grow = 1 , shrink = 1 basis = 0; */
+}
+.flex-2 {
+  flex: 2;
+  /* grow = 2 , shrink = 1 basis = 0; */
+}
+
+.largura {
+  width: 200px;
+  min-width: 250px;
+}
+.item10 {
+  flex: 1;
+  background: brown;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  margin: 2px;
+}
+.or1 {
+  order: 1;
+}
+.or2 {
+  order: 2;
+}
+.or3 {
+  order: 3;
+}
+.or4 {
+  order: 4;
+}
+.or5 {
+  order: 5;
+}
+.flex-container7 {
+  max-width: 350px;
+  border: 1px solid;
+  margin-bottom: 10px;
+  display: flex;
+  background-color: black;
+}
+.align-container {
+  align-items: center;
+}
+.item11 {
+  background-color: royalblue;
+  color: #d4dded;
+  font-size: 24px;
+  text-align: center;
+  margin: 3px;
+}
+.center3 {
+  align-self: center;
+}
+.start {
+  align-self: start;
+}
+.end {
+  align-self: flex-end;
+}
+.baseline {
+  align-items: baseline;
+}
+.stretch3 {
+  align-self: stretch;
+}
+.auto {
+  align-items: auto;
+}

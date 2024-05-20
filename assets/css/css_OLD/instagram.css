@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+body {
+  width: 100%;
+  min-width: 100vh;
+  background-color: rgb(243, 243, 243);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.geral {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 60%;
+  height: 100vh;
+}
+.container-photo {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 50%;
+}
+
+.container-photo img {
+  height: 100%;
+}
+.phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150%;
+}
+.phone img {
+  margin: 15px;
+  max-width: 100%;
+  max-height: 100%;
+  align-items: center;
+  text-align: center;
+}
+.container-perfil {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 50%;
+  min-height: 34rem;
+}
+
+.foto-logo {
+  margin: 15px;
+  height: 3rem;
+}
+.foto-perfil {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.foto-perfil img {
+  height: 6rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.continuar2 a {
+  margin: 8px;
+  background-color: #0095f6;
+  padding: 8px;
+  align-items: center;
+  border-radius: 4px;
+  color: #ffffff;
+}
+.remover {
+  color: #0095f6;
+  margin-top: 1rem;
+}
+.container-download {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  width: 100%;
+  padding: 1.3rem 0;
+  border: 1px solid lightgrey;
+}
+.column2 {
+  justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+.lojas {
+  justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+}
+.apple img {
+  height: 5rem;
+  width: 14rem;
+  background-size: cover;
+}
+.google img {
+  height: 5rem;
+  width: 14rem;
+  background-size: cover;
+}
+.caixa_1 {
+  min-height: 19rem;
+}
+.caixa_2 {
+  margin: 12px;
+}
+
+.link-azul {
+  color: #0095f6;
+}
+
+.continuar {
+}

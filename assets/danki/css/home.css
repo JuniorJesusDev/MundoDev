@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  width: 900px;
+  background-color: rgb(0, 195, 255);
+  margin: 5px auto;
+  text-align: center;
+}
+
+.menu a {
+  border: 2px solid red;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  margin: 2px 10px;
+}
+
+.texto {
+  background-color: azure;
+  margin: 0 auto;
+  max-width: 900px;
+}
+.texto h1 {
+  font-weight: bold;
+  margin-top: 30px;
+  font-size: 35px;
+  text-align: center;
+}
+.texto h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  text-align: center;
+}
+.texto p {
+  padding: 20px;
+  width: 100%;
+  height: auto;
+  text-align: justify;
+  margin: auto;
+}

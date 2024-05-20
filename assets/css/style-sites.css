@@ -1,0 +1,113 @@
+.feed-home {
+  width: 940px;
+  margin: 20px auto;
+  padding: 0px;
+}
+.feed-home a {
+  text-decoration: none;
+}
+.borda-normal {
+  background-color: rgb(255, 255, 255);
+  vertical-align: top;
+  box-sizing: border-box;
+  width: 30%;
+  height: 300px;
+  display: inline-block;
+  margin: 20px 1.5%;
+  padding: 0px 10px;
+}
+
+.reegi {
+  background-color: white;
+  vertical-align: top;
+  box-sizing: border-box;
+  align-items: center;
+  width: 30%;
+  height: 300px;
+  display: inline-block;
+  margin: 20px 1.5%;
+  padding: 8px;
+  transition: 0.5s;
+}
+.transicao:hover {
+  transition: 0.5s;
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  border: 4px solid rgb(0, 191, 255);
+  filter: drop-shadow(16px 16px 10px black);
+}
+
+.imagens-reegi {
+  display: block;
+  padding: 0px 5px;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+.imagens-materias {
+  padding: 0px 5px;
+  width: 100%;
+  height: 250px;
+}
+
+.feed-home p {
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  padding: 5px 0px;
+  text-align: center;
+}
+.feed-home img {
+  margin-left: -5px;
+}
+@media screen and (max-width: 480px) {
+  .feed-home {
+    display: grid;
+    width: auto;
+    margin: auto;
+  }
+  .feed-home h2 {
+    font-family: 'Rubik Dirt', cursive;
+    margin: auto;
+    font-size: 30px;
+    padding: 5px 0px;
+    text-align: center;
+    transition: 1s;
+    margin-bottom: 10px;
+  }
+  .feed-home h2:hover {
+    margin-bottom: 20px;
+    transition: 1s;
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1, 2);
+  }
+  .feed-home ul {
+    width: auto;
+    display: grid;
+  }
+  .feed-home li {
+    border-radius: 10px;
+    vertical-align: top;
+    box-sizing: border-box;
+    width: 90%;
+    display: inline-block;
+    margin: 20px;
+    padding: 30px 20px;
+  }
+  .imagens-materias {
+    margin-top: 2px;
+    width: 100%;
+    height: 90%;
+  }
+  .feed-home p {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 0px 0px;
+    text-align: center;
+  }
+}

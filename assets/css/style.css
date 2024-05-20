@@ -1,0 +1,110 @@
+.feed-home {
+  width: 940px;
+  margin: 20px auto;
+  padding: 50px 0;
+}
+
+.feed-home h2 {
+  color: black;
+  font-family: 'Rubik Dirt', cursive;
+  margin-top: -20px;
+  margin-bottom: 40px;
+  font-size: 30px;
+  padding: 5px 0px;
+  text-align: center;
+  transition: 1s;
+}
+
+.feed-home h2:hover {
+  transition: 1s;
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(2.1);
+}
+
+.feed-home a {
+  text-decoration: none;
+}
+.feed-home li {
+  box-shadow: 5px 5px #000000;
+  background-color: aliceblue;
+  border-radius: 10px;
+  vertical-align: top;
+  box-sizing: border-box;
+  width: 30%;
+  height: 300px;
+  display: inline-block;
+  margin: 20px 1.5%;
+  padding: 30px 20px;
+}
+
+.feed-home li:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  border: 2px solid rgb(0, 4, 255);
+}
+
+.imagens-materias {
+  border: 1px solid rgb(0, 0, 0);
+  width: 250px;
+  height: 190px;
+}
+
+.feed-home p {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  padding: 5px 0px;
+  text-align: center;
+}
+
+.feed-home img {
+  margin-left: -5px;
+}
+
+@media screen and (max-width: 480px) {
+  .feed-home {
+    display: grid;
+    width: auto;
+    margin: auto;
+  }
+  .feed-home h2 {
+    font-family: 'Rubik Dirt', cursive;
+    margin: auto;
+    font-size: 30px;
+    padding: 5px 0px;
+    text-align: center;
+    transition: 1s;
+    margin-bottom: 10px;
+  }
+  .feed-home h2:hover {
+    margin-bottom: 20px;
+    transition: 1s;
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1, 2);
+  }
+  .feed-home ul {
+    width: auto;
+    display: grid;
+  }
+  .feed-home li {
+    border-radius: 10px;
+    vertical-align: top;
+    box-sizing: border-box;
+    width: 70%;
+    display: inline-block;
+    margin: 200px;
+    padding: 30px 20px;
+  }
+  .imagens-materias {
+    width: 100%;
+  }
+  .feed-home p {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 0px 0px;
+    text-align: center;
+  }
+}

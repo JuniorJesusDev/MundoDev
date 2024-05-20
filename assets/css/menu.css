@@ -1,0 +1,86 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+.menu {
+  position: relative;
+  background-image: url(../img/home/banner-tecnológico-de-fundo-da-tecnologia-neon-partir-polígonos-e-estrutura-molécula-linha-ilustração-do-vetor-192455015.jpg);
+  width: 940px;
+  margin: 10px auto;
+}
+.menu h1 img {
+  width: 100%;
+  margin: 0 auto;
+}
+.menu h1 {
+  margin: 0 auto;
+}
+nav {
+  border: 15px solid white;
+  padding: 12px;
+  text-align: center;
+  position: static;
+  margin-top: -4px;
+}
+nav li {
+  display: inline;
+  margin: 0 0 0 10px;
+}
+nav a {
+  padding: 20px;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+  transition: 0.4s;
+}
+nav a:hover {
+  transition: 0.3s;
+  font-size: 25px;
+  background-color: rgb(11, 22, 177);
+  box-shadow: 0px 0px 5px 5px #ca1313;
+  color: #ff0202;
+}
+.menu h1 img:hover {
+  opacity: 85%;
+}
+@media screen and (max-width: 480px) {
+  .menu {
+    max-width: 480px;
+    position: unset;
+    width: auto;
+  }
+  .menu h1 img {
+    position: static;
+    width: 100%;
+    margin: auto;
+  }
+  nav {
+    border: 0px solid white;
+    padding: 0px;
+    text-align: center;
+    position: static;
+    margin-top: 0px;
+  }
+  nav a {
+    font-size: 22px;
+    text-decoration: none;
+    transition: 0.4s;
+  }
+  nav li {
+    display: grid;
+    margin: auto;
+  }
+  nav a:hover {
+    transition: 0.3s;
+    font-size: 25px;
+    background-color: rgb(11, 22, 177);
+    box-shadow: 0px 0px 0px 0px #ca1313;
+  }
+  nav a:active {
+    transition: 0.5s;
+    font-size: 25px;
+    background-color: rgb(9, 26, 255);
+    box-shadow: 0px 0px 0px 0px #e70505;
+  }
+}

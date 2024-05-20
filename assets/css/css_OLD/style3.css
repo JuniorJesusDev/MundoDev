@@ -1,0 +1,463 @@
+.html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+body {
+  margin-top: 10px;
+  background-image: url(../img/bkpg1m2.jpg);
+  font-family: Verdana, arial, sans-serif;
+  font-size: 12px;
+  line-height: 1, 45px;
+  max-width: 900px;
+  margin: auto;
+}
+/* Nav Bar (Barra de Navegacao) */
+.navbar {
+  overflow: hidden;
+  display: flex;
+  border: 2px solid rgb(24, 247, 255);
+  background-image: url(../img/menuroxo.jfif);
+  max-width: 900px;
+  background-repeat: repeat;
+  background-size: 100%;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin: 0 auto;
+  padding: 5px;
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Links Navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 8px 10px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+}
+/* Add a red background color to navbar links on hover */
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: rgb(66, 0, 248);
+  color: black;
+}
+/*.............. FIM MENU ...........*/
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  border: 5px solid red;
+}
+
+/* site 1 */
+.container .site1 {
+  background-color: rgb(207, 179, 20);
+  border: 2px solid rgb(0, 0, 0);
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+}
+.container .site1 .imagem {
+  background-color: rgb(0, 0, 0);
+  width: auto;
+  margin: 2px;
+  display: block;
+  justify-content: flex-start;
+}
+.container .site1 .imagem img {
+  display: block;
+  box-sizing: border-box;
+  max-width: 100%;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.container .site1 .texto {
+  min-width: 70%;
+  margin: 15px;
+}
+.container .site1 h1 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* fim site 1 */
+
+/* site 2 */
+
+.container .site2 {
+  background-color: rgb(247, 25, 173);
+  border: 2px solid rgb(0, 0, 0);
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+}
+.container .site2 .imagem {
+  background-color: white;
+  width: auto;
+  margin: 2px;
+  display: block;
+  justify-content: flex-start;
+}
+.container .site2 .imagem img {
+  display: block;
+  box-sizing: border-box;
+  max-width: 100%;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.container .site2 .texto {
+  color: aliceblue;
+  min-width: 70%;
+  margin: 15px;
+}
+.container .site2 h1 {
+  text-align: center;
+  -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+
+.container .site2 .link a ul {
+  color: white;
+  padding: 2px;
+  border: 2px solid rgb(0, 0, 0);
+  background-color: rgb(194, 32, 107);
+  max-width: 120px;
+  text-transform: uppercase;
+}
+
+.container .site2 .texto .link {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.container .site2 .link:hover a ul {
+  background-color: rgb(0, 0, 0);
+  color: #ff00dd;
+}
+
+/* fim site 2 */
+
+/* site 3 */
+
+.container .site3 {
+  background: url(/img/SiteInstagram/background.jpg);
+  border: 2px solid rgb(0, 0, 0);
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+}
+.container .site3 .imagem {
+  background-color: white;
+  width: auto;
+  margin: 2px;
+  display: block;
+  justify-content: flex-start;
+}
+.container .site3 .imagem img {
+  padding: 5px;
+  display: block;
+  box-sizing: border-box;
+  max-width: 100%;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.container .site3 .texto {
+  text-align: center;
+  color: aliceblue;
+  min-width: 70%;
+  margin: 15px;
+}
+.container .site3 h1 {
+  text-transform: uppercase;
+  text-align: center;
+  -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+
+.container .site3 .link a ul {
+  color: white;
+  padding: 2px;
+  border: 2px solid rgb(0, 0, 0);
+  background-color: rgb(194, 32, 107);
+  max-width: 120px;
+  text-transform: uppercase;
+}
+
+.container .site3 .texto .link {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+/* fim site 3 */
+
+/* site 4 */
+
+.container .site4 {
+  background-image: url(../img/Avisos/fundoamarelo.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border: 2px solid rgb(0, 0, 0);
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+}
+.container .site4 .imagem {
+  border: 2px solid black;
+  background-color: rgb(14, 13, 13);
+  width: auto;
+  margin: 2px;
+  display: block;
+  justify-content: flex-start;
+}
+.container .site4 .imagem img {
+  display: block;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.container .site4 .texto {
+  min-width: 70%;
+  margin: 15px;
+}
+.container .site4 h1 {
+  color: rgb(255, 230, 0);
+  -webkit-text-stroke: 1px rgb(0, 0, 0);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* fim site 4 */
+
+/* site 5 */
+
+.container .site5 {
+  background-image: url(../img/Avisos/fundoamarelo.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border: 2px solid rgb(0, 0, 0);
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+}
+.container .site5 .imagem {
+  border: 2px solid black;
+  background-color: rgb(14, 13, 13);
+  width: auto;
+  margin: 2px;
+  display: block;
+  justify-content: flex-start;
+}
+.container .site5 .imagem img {
+  display: block;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.container .site5 .texto {
+  min-width: 70%;
+  margin: 15px;
+}
+.container .site5 h1 {
+  color: rgb(255, 230, 0);
+  -webkit-text-stroke: 1px rgb(0, 0, 0);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* fim site 5 */
+
+/* site 6 */
+
+.container .site6 {
+  background-image: url(../img/Avisos/fundoamarelo.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border: 2px solid rgb(0, 0, 0);
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+}
+.container .site6 .imagem {
+  border: 2px solid black;
+  background-color: rgb(14, 13, 13);
+  width: auto;
+  margin: 2px;
+  display: block;
+  justify-content: flex-start;
+}
+.container .site6 .imagem img {
+  display: block;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.container .site6 .texto {
+  min-width: 70%;
+  margin: 15px;
+}
+.container .site6 h1 {
+  color: rgb(255, 230, 0);
+  -webkit-text-stroke: 1px rgb(0, 0, 0);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* fim site 6 */
+
+/* site 7 */
+
+.container .site7 {
+  background-image: url(../img/Avisos/fundoamarelo.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border: 2px solid rgb(0, 0, 0);
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+}
+.container .site7 .imagem {
+  border: 2px solid black;
+  background-color: rgb(14, 13, 13);
+  width: auto;
+  margin: 2px;
+  display: block;
+  justify-content: flex-start;
+}
+.container .site7 .imagem img {
+  display: block;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.container .site7 .texto {
+  min-width: 70%;
+  margin: 15px;
+}
+.container .site7 h1 {
+  color: rgb(255, 230, 0);
+  -webkit-text-stroke: 1px rgb(0, 0, 0);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* fim site 7 */
+
+/* site 8 */
+
+.container .site8 {
+  background-image: url(../img/Avisos/fundoamarelo.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border: 2px solid rgb(0, 0, 0);
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+}
+.container .site8 .imagem {
+  border: 2px solid black;
+  background-color: rgb(14, 13, 13);
+  width: auto;
+  margin: 2px;
+  display: block;
+  justify-content: flex-start;
+}
+.container .site8 .imagem img {
+  display: block;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.container .site8 .texto {
+  min-width: 70%;
+  margin: 15px;
+}
+.container .site8 h1 {
+  color: rgb(255, 230, 0);
+  -webkit-text-stroke: 1px rgb(0, 0, 0);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* fim site 8 */
+
+/* site 9 */
+
+.container .site9 {
+  background-image: url(../img/Avisos/fundoamarelo.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border: 2px solid rgb(0, 0, 0);
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+}
+.container .site9 .imagem {
+  border: 2px solid black;
+  background-color: rgb(14, 13, 13);
+  width: auto;
+  margin: 2px;
+  display: block;
+  justify-content: flex-start;
+}
+.container .site9 .imagem img {
+  display: block;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.container .site9 .texto {
+  min-width: 70%;
+  margin: 15px;
+}
+.container .site9 h1 {
+  color: rgb(255, 230, 0);
+  -webkit-text-stroke: 1px rgb(0, 0, 0);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* fim site 9 */
+
+/* site 10 */
+
+.container .site10 {
+  background-image: url(../img/Avisos/fundoamarelo.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border: 2px solid rgb(0, 0, 0);
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+}
+.container .site10 .imagem {
+  border: 2px solid black;
+  background-color: rgb(14, 13, 13);
+  width: auto;
+  margin: 2px;
+  display: block;
+  justify-content: flex-start;
+}
+.container .site10 .imagem img {
+  display: block;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.container .site10 .texto {
+  min-width: 70%;
+  margin: 15px;
+}
+.container .site10 h1 {
+  color: rgb(255, 230, 0);
+  -webkit-text-stroke: 1px rgb(0, 0, 0);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* fim site 10 */

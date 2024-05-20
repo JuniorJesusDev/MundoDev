@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato</title>
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style-contato.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="caixa">
+        <h1>
+          <img
+            src="assets/img/produtos/logo.png"
+            alt="Logo da barbearia Alura"
+          />
+        </h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="contato.html">Contatos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <form action="">
+        <label for="nomeesobrenome">Nome e sobrenome</label>
+        <input
+          type="text"
+          id="nomeesobrenome"
+          class="input-padrao"
+          required
+          placeholder="Seu Nome"
+        />
+
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          class="input-padrao"
+          required
+          placeholder="seuemail@dominio.com"
+        />
+
+        <label for="telefone">Telefone</label>
+        <input
+          type="tel"
+          id="telefone"
+          class="input-padrao"
+          required
+          placeholder="(99) 99999-9999"
+        />
+
+        <label for="mensagem">Mensagem</label>
+        <textarea
+          name=""
+          id="mensagem"
+          cols="70"
+          rows="10"
+          class="input-padrao"
+          placeholder="Digite seu texto aqui..."
+          required
+        ></textarea>
+
+        <fieldset>
+          <legend>Como prefere nosso contato?</legend>
+
+          <label for="radio-email"
+            ><input
+              name="contato"
+              id="radio-email"
+              type="radio"
+              value="email"
+            />Email</label
+          >
+
+          <label for="radio-telefone"
+            ><input
+              name="contato"
+              id="radio-telefone"
+              type="radio"
+            />Telefone</label
+          >
+
+          <label for="radio-whatsapp"
+            ><input
+              name="contato"
+              id="radio-whatsapp"
+              type="radio"
+              checked
+            />Whatsapp
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Qual horario prefere ser atendido?</legend>
+          <select name="" id="">
+            <option value="">Manhã</option>
+            <option value="">Tarde</option>
+            <option value="">Noite</option>
+          </select>
+        </fieldset>
+
+        <label class="checkbox" for="checkbox"
+          ><input type="checkbox" id="checkbox" checked />Gostaria de receber
+          nossas novidades por email?</label
+        >
+
+        <input type="submit" value="Enviar Formulário" class="enviar" />
+      </form>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Dia</th>
+            <th>Horario</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Segunda</td>
+            <td>08h ás 20h</td>
+          </tr>
+          <tr>
+            <td>Quarta</td>
+            <td>08h ás 20h</td>
+          </tr>
+          <tr>
+            <td>Sexta</td>
+            <td>08h ás 20h</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+    <footer>
+      <img
+        src="assets/img/produtos/logo-branco.png"
+        alt="Logo da barbearia Alura"
+      />
+      <p class="copyrigth">&copy; Copyright Barbearia Alura – 2019</p>
+    </footer>
+  </body>
+</html>

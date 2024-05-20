@@ -1,0 +1,146 @@
+body {
+  font-family: 'Rubik Microbe', cursive;
+}
+
+header {
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 20px 0;
+}
+
+.caixa {
+  width: 940px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.caixa img {
+  transition: 1s;
+  border-radius: 100%;
+  background-color: white;
+  width: 30%;
+}
+
+.caixa img:hover {
+  transition: 1s;
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.2);
+  filter: drop-shadow(16px 16px 10px black);
+}
+
+nav {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 5px;
+  border: 8px solid rosybrown;
+  position: absolute;
+  top: 250px;
+  right: 0px;
+}
+nav li {
+  display: inline;
+  margin: 0 0 0 35px;
+}
+
+nav a {
+  transition: 0.7s;
+  font-family: 'Goblin One', cursive;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  text-decoration: none;
+  text-shadow: 2px 2px rosybrown;
+}
+
+nav a:hover {
+  transition: 0.7s;
+  font-size: 21px;
+  color: rosybrown;
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 0px 35px 0px #ffffff;
+  -webkit-text-stroke: 1px #ffffff;
+}
+
+.produtos li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.produtos li:hover {
+  border-color: #c78b13;
+}
+
+.produtos li:active {
+  border-color: #13c71c;
+}
+
+.produtos li:hover h2 {
+  font-size: 32px;
+}
+.produtos {
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.produtos h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.produto-descricao {
+  font-size: 18px;
+}
+.produto-preco {
+  margin-top: 10px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  background-image: url(../img/produtos/bg.jpg);
+  padding: 40px 0;
+}
+
+.copyrigth {
+  color: aliceblue;
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  .caixa {
+    width: auto;
+  }
+  .produtos li {
+    display: block;
+    margin: 20px 5%;
+  }
+
+  nav {
+    position: static;
+  }
+  nav a {
+    text-align: center;
+    display: grid;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 0px 0px #c78b13;
+  }
+  h1 {
+    text-align: center;
+  }
+  nav a:hover {
+    font-size: 22px;
+    text-decoration: none;
+  }
+}
